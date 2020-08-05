@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: slategrey;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: slategrey;
+  font-weight: 500;
+  font-size: 14px;
+}
