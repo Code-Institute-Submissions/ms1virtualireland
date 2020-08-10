@@ -1,8 +1,26 @@
+/* colors
+Pakistan Green: #047417
+*/
+
 * {
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   color: slategrey;
+}
+
+/* page content*/
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 70px;
 }
 
 /* navbar*/
@@ -10,25 +28,12 @@
   border: none;
 }
 
-/* homepage video*/
-
-.container-video {
-  margin-top: 20px;
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.container-video .row .col {
-  margin-top: 40px;
-}
-
-video {
-  width: 100%;
-}
-
-/* svg paths*/
+/* header svg paths*/
 
 #vi-heading path:nth-child(2){
   stroke-dasharray: 450px;
@@ -108,53 +113,159 @@ video {
   }
 }
 
-/* media queries*/
+/* homepage video*/
 
-@media (min-width:1200px) {
-  #vi-logo {
-    width: 120px;
-    height: 120px;
-  }
-  #vi-heading {
-    width: 300px;
-    height: 120px;
-  }
+.container-video {
+  margin-top: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
-@media (max-width:1199px) {
-  #vi-logo {
-    width: 90px;
-    height: 90px;
-  }
-  #vi-heading {
-    width: 225px;
-    height: 90px;
-  }
-  .container-video {
-    width: 100%;
-  }
-  video {
-    margin: 30px 0;
-  }
+video {
+  width: 100%;
+  margin-top: 30px;
 }
 
-@media (max-width:768px) {
-  #vi-logo {
-    width: 60px;
-    height: 60px;
-  }
-  #vi-heading {
-    width: 150px;
-    height: 60px;
-  }
+/* footer*/
+footer {
+  background-color: #525252;
+  color: #fafafa;
+  height: 98px;
+  margin-top: -98px;
+  clear: both;
+  padding: 5px;
 }
 
-@media (max-width:300px) {
+.social-links, .copyright, .list-inline {
+  text-align: center;
+  margin: 0;
+}
+
+.copyright {
+  font-size: 0.65rem;
+}
+
+.social-links li a i {
+width: 32px;
+height: 32px;
+padding: 12px 0px;
+border-radius: 50%;
+font-size: 13px;
+line-height: 7px;
+text-align: center;
+color: #fafafa;
+background: #047417;
+transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #fafafa;
+  color: #047417;
+}
+
+/* #footer-details {
+  padding: 5px;
+} */
+
+
+
+/*---------------------------------------------------------------------------------
+ media queries
+ --------------------------------------------------------------------------------*/
+
+/*xxs*/
+@media (min-width:50px) {
+  /* body {
+    background-color: coral;
+  } */
   #vi-logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   #vi-heading {
     display: none;
   }
+  footer {
+    height: 200px;
+    margin-top: -200px;
+  }
 }
+
+/*xs default*/
+@media (min-width:220px) {
+  /* body {
+    background-color: blue;
+  } */
+  #vi-heading {
+    display: inline-block;
+    height: 18px;
+  }
+  footer {
+    height: 80px;
+    margin-top: -80px;
+  }
+}
+
+/*sm*/
+@media (min-width:768px) {
+  /* body {
+    background-color: red;
+  } */
+  #vi-logo {
+    width: 80px;
+    height: 80px;
+  }
+  #vi-heading {
+    height: 40px;
+  }
+  .container-video {
+    width: 100%;
+    margin-top: 15px;
+  }
+  video {
+    margin: 30px 0;
+  }
+  footer {
+    height: 50px;
+    margin-top: -50px;
+  }
+  .copyright {
+    font-size: 1rem;
+  }
+}
+
+/*md*/
+@media (min-width:992px) {
+  /* body {
+    background-color: green;
+  } */
+  #vi-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/*lg*/
+@media (min-width:1200px) {
+  /* body {
+    background-color: yellow;
+  } */
+  #vi-heading {
+    height: 60px;
+  }
+  video {
+    margin: 30px 0 0 0;
+  }
+}
+
+
+
+
+
+
+
