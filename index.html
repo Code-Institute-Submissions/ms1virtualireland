@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Virtual Ireland is a site which let's you learn the history and mythology of Ireland's most amazing places" />
+  <meta name="robots" content="index,follow" />
+  <!--(I'm using an icon from Freepic, I edited the colour to maatch my site and attributed the author in the footer)-->
+  <link rel="icon" href="./assets/icons/spiral-green.svg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Virtual Ireland | Discover Ireland from home</title>
-  <!-- <style>
+  <!-- (I used borders to test my footer layout)
+    <style>
     .container-footer {border: solid 1px green;}
     .row-footer {border: dotted 1px red;}
     .column-footer {border: solid 1px yellow;}
@@ -18,8 +23,8 @@
   <div id="container">
     <div id="main">
     <header>
+
       <!--Navigation-->
-      
       <nav class="navbar navbar-light navbar-expand-lg">
         <a class="nav-logo" id="vi-logo" href="index.html">
           <img src="assets/images/VI.svg" alt="VI">
@@ -59,57 +64,111 @@
             <path d="M408.936 1.144C412.008 1.144 414.584 1.912 416.664 3.448C418.776 4.952 420.344 6.984 421.368 9.544C422.424 12.072 422.952 14.872 422.952 17.944C422.952 21.112 422.424 23.96 421.368 26.488C420.344 29.016 418.776 31.032 416.664 32.536C414.584 34.008 412.008 34.744 408.936 34.744H396.696C396.28 34.744 395.928 34.616 395.64 34.36C395.384 34.072 395.256 33.72 395.256 33.304V2.584C395.256 2.168 395.384 1.832 395.64 1.576C395.928 1.288 396.28 1.144 396.696 1.144H408.936ZM408.456 31.912C412.296 31.912 415.16 30.632 417.048 28.072C418.936 25.48 419.88 22.104 419.88 17.944C419.88 15.352 419.48 13.016 418.68 10.936C417.88 8.824 416.616 7.144 414.888 5.896C413.192 4.616 411.048 3.976 408.456 3.976H398.28V31.912H408.456Z" stroke="#047B17" stroke-width="2" mask="url(#path-1-outside-1)"/>
             </svg>
         </a>
-
+      
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span></button>
-      
+        
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto nav-links">
-            <li class="nav-item mr-1"><a href="west.html" class="nav-link">West</a></li>
-            <li class="nav-item mr-1"><a href="east.html" class="nav-link">East</a></li>
-            <li class="nav-item mr-1"><a href="north.html" class="nav-link">North</a></li>
-            <li class="nav-item mr-1"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item mr-1"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="west.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                West
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="kilmacduagh.html">Kilmacduagh</a>
+                <a class="dropdown-item" href="cliffs.html">Cliffs of Moher</a>
+                <a class="dropdown-item" href="burren.html">The Burren</a>
+                <a class="dropdown-item" href="galway.html">Galway</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="west.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                East
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="glen.html">Glendalough</a>
+                <a class="dropdown-item" href="gap.html">Wicklow Gap</a>
+                <a class="dropdown-item" href="kilkenny.html">Kilkenny</a>
+                <a class="dropdown-item" href="Dublin.html">Dublin</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="west.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                North
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="hedges.html">Dark Hedges</a>
+                <a class="dropdown-item" href="causeway.html">Giant's Causeway</a>
+                <a class="dropdown-item" href="ballintoy.html">Ballintoy</a>
+                <a class="dropdown-item" href="Belfast.html">Belfast</a>
+              </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
-      <!--video links-->
+    <!--video links-->
     <div class="container-fluid container-video">
+
       <div class="row">
-        <div class="col col-xl-12">
-          <a href="west.html">
-            <video autoplay loop>
-              <source src="assets/video/cliffs.mp4" type="video/mp4">
-            </video>
-          </a>
+        <div class="col col-xl-12 home-gallery">
+          <div class="home-gallery-item">
+            <div class="home-gallery-video">
+              <a href="west.html">
+                <video loop data-play="Hover" muted="muted">
+                  <source src="assets/video/cliffs.mp4" type="video/mp4">
+                </video>
+              </a>
+            </div>
+            <div class="home-gallery-text">
+              The West
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-xl-6">
-          <a href="east.html">
-            <video autoplay loop>
-              <source src="assets/video/lake.mp4" type="video/mp4">
-            </video>
-          </a>
+        <div class="col-xl-6 home-gallery">
+          <div class="home-gallery-item">
+            <div class="home-gallery-video">
+              <a href="east.html">
+                <video loop data-play="Hover" muted="muted">
+                  <source src="assets/video/lake.mp4" type="video/mp4">
+                </video>
+              </a>
+            </div>
+            <div class="home-gallery-text">
+              The East
+            </div>
+          </div>      
         </div>
+
         <div class="col-xl-6">
-          <a href="north.html">
-            <video autoplay loop>
-              <source src="assets/video/harbour.mp4" type="video/mp4">
-            </video>
-          </a>
+          <div class="home-gallery-item">
+            <div class="home-gallery-video">
+              <a href="north.html">
+                <video loop data-play="Hover" muted="muted">
+                  <source src="assets/video/harbour.mp4" type="video/mp4">
+                </video>
+              </a>
+            </div>
+            <div class="home-gallery-text">
+              The North
+            </div>
+          </div>      
         </div>
       </div>
       </div>
     </div>
     </div>
     
-      <!-- Footer -->
+    <!-- Footer -->
     <footer class="container-fluid container-footer">
-      <div id="footer-details" class="row h-100 align-items-center row-footer">
-        <div class="col-sm-6 order-sm-1 align-self-end column-footer my-auto">
+      <div id="footer-details" class="row h-100 row-footer">
+        <div class="col-sm-6 order-sm-1 column-footer my-auto align-self-center">
           <ul class="list-inline social-links">
             <li class="list-inline-item">
                 <a target="_blank" href="#">
@@ -138,13 +197,33 @@
         </ul>
       </div>
       <div class="col-sm-6 column-footer my-auto">
-          <p class="copyright">@ 2020 copyright: Sean McMahon</p>
+          <p class="copyright">@ 2020 copyright: Sean McMahon <br>
+            Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
       </div>
         
     </div>
   </footer>
 
-<!-- Footer -->
+<!-- Scripts -->
+
+<!-- javascript code taken from youtube tutorial by Bibek Bulan:https://www.youtube.com/watch?v=cBDk5B74kVQ -->
+  <script type="text/javascript">
+  document.addEventListener('mouseover', hoverVideo, false);
+  var vid= document.getElementsByTagName("video");
+  [].forEach.call(vid, function(item){
+    item.addEventListener('mouseover', hoverVideo, false);
+    item.addEventListener('mouseout', hideVideo, false);
+  });
+  function hoverVideo(e)
+  {
+    this.play();
+  }
+  function hideVideo(e)
+  {
+    this.pause()
+  }
+  </script>
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
