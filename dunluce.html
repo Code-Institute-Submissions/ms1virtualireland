@@ -9,9 +9,9 @@
   <link rel="icon" href="./assets/icons/spiral-green.svg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Virtual Ireland | East</title>
+  <title>Virtual Ireland | Dunluce Castle</title>
 </head>
 <body class=" bg-light">
   <div id="container">
@@ -67,17 +67,17 @@
               <div class="main-nav">
                 <ul class="navbar-nav ml-auto nav-links">
                   <li class="nav-item mr-1"><a href="west.html" class="nav-link">West</a></li>
-                  <li class="nav-item mr-1 active-nav-link"><a href="east.html" class="nav-link">East</a></li>
-                  <li class="nav-item mr-1"><a href="north.html" class="nav-link">North</a></li>
+                  <li class="nav-item mr-1"><a href="east.html" class="nav-link">East</a></li>
+                  <li class="nav-item mr-1 active-nav-link"><a href="north.html" class="nav-link">North</a></li>
                   <li class="nav-item mr-1"><a href="about.html" class="nav-link">About</a></li>
                   <li class="nav-item mr-1"><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
               </div>
               <div class="sub-nav">
                 <ul class="navbar-nav ml-auto nav-links">
-                  <li class="nav-item mr-1"><a href="glen.html" class="nav-link">Glendalough</a></li>
-                  <li class="nav-item mr-1"><a href="gap.html" class="nav-link">Wicklow Gap</a></li>
-                  <li class="nav-item mr-1"><a href="kilkenny.html" class="nav-link">Kilkenny</a></li>
+                  <li class="nav-item mr-1"><a href="causeway.html" class="nav-link">Giant's Causeway</a></li>
+                  <li class="nav-item active-nav-link mr-1"><a href="dunluce.html" class="nav-link">Dunluce</a></li>
+                  <li class="nav-item mr-1"><a href="ballintoy.html" class="nav-link">Ballintoy</a></li>
                 </ul>
               </div>
             </div>
@@ -85,48 +85,50 @@
         </nav>
       </header>
 
-<!------Image Gallery-------------------------------------------------------------------------------------------->
-      <section class="gallery-container">
+<!------Image Gallery---------------------------------------------------------------------------------------------
+(inspired by youtube tutorial by CLever Techie:https://youtu.be/AvMl3StAju4)
+----------------------------------------------------------------------------------------------------------------->
+      <section class="locations-container">
+        
+      <div class="carousel-container-l">
+        <div id="carousel-dunluce" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
 
-
-          <div class="item-container w-8 h-3">
-            <div class="gallery-item">
-              <div class="gallery-image">
-                <a href="glen.html">
-                  <img src="./assets/images/e-glen.jpg" alt="Glendalough">
-                </a>
+            <div class="carousel-item active">
+              <div class="carousel-image">
+                <img class="d-block w-100" src="./assets/images/n-dunluce.jpg" alt="First Slide">
               </div>
-              <div class="gallery-text">Glendalough</div>
+              <div class="carousel-caption">
+                <h3>Dunluce Castle</h3>
+                <p>Constructed in the 16<sup>th</sup> century.<p>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="item-container w-8 h-3">
-            <div class="gallery-item">
-              <div class="gallery-image">
-                <a href="gap.html">
-                  <img src="./assets/images/e-gap.jpg" alt="Wicklow Gap">
-                </a>
-              </div>
-              <div class="gallery-text">Wicklow Gap</div>
-            </div>
-          </div>
-          
-          <div class="item-container w-4 h-6">
-            <div class="gallery-item">
-              <div class="gallery-image">
-                <a href="kilkenny.html">
-                  <img src="./assets/images/e-kilkenny-p.jpg" alt="Kilkenny">
-                </a>
-              </div>
-              <div class="gallery-text">Kilkenny</div>
-            </div>
-          </div>
+      <div id="locations-text-l">
+        <h2>Dunluce</h2>
+        <div id="locations-history">
+          <p>
+            Dunluce Castle was built by the McQuillan Clan in the early 16th century. It was the inspiration for Castle Greyjoy in <i>'Game of Thrones'</i> as well as Cair Paraval, the castle from CS Lewis' <i>Chronicles of Narnia</i>. From the castle one can see three countries, Northern Ireland, the Republic of Ireland and even Scotland. The castle also features on the inner gatefold of Led Zeppelins' <i>Houses of the Holy</i>. Just beyond the castle is the town of Portrush, famous for it's golf course which hosted the Irish Open in 2019.
+            
+          </p>
+          <p> 
+            'Dun' is a common prefix in Irish town names, it means fort, any town beginning with 'Dun' in Ireland has or once had a fort. Other common prefixes include 'Kil' meaning church and 'Bally' from the Irish <i>Baile</i> meaning town.
+          </p>
+         
+        </div>
 
-      </section>
+        <div id="locations-culture">
+          <blockquote>"One night the Lord and Lady of the castle were awaiting their supper when they heard a terrible crash, when they went to investigate they found that their kitchen, along with all their servents, had fallen into the Irish Sea."</p>
+          </blockquote>
+      </div>
+
+    </section>
 
     </div>
   </div>
-
 <!------Footer-------------------------------------------------------------------------------------------->
     <footer class="container-fluid container-footer">
       <div id="footer-details" class="row h-100 row-footer">
