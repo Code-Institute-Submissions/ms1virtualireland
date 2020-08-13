@@ -331,6 +331,46 @@ video {
   float: left;
 }
 
+/*---------------------------------------------------------------------------------
+ about (Inspired by Love Running exercise from Code Institute CSS Basics Module)
+ --------------------------------------------------------------------------------*/
+ .about-container {
+   width: 90%;
+   margin: auto;
+   text-align: justify;
+ }
+
+ #about-image {
+   width: 100%;
+   margin: auto;
+   float: left;
+   padding: 10px;
+ }
+ 
+ #circle-container {
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+   padding: 20px;
+   border: 1px solid #047417;
+   margin: 0 auto;
+ }
+
+ #circle-cover-bg {
+   background: url(/MS1-Virtual_Ireland/assets/images/w-burren-square.jpg) no-repeat center;
+   background-size: cover;
+   height: 100%;
+   border-radius: 50%;
+ }
+
+ #about-text {
+   width: 100%;
+   float: center;
+   padding: 10px;
+ }
+
+ 
+
 
 /*---------------------------------------------------------------------------------
  footer
@@ -437,6 +477,15 @@ transition: all 0.35s ease-in-out;
     #locations-text-p {
     width: 80%;
     }
+  
+  .about-container {
+    width: 60%;
+  }
+  #circle-container {
+    width: 400px;
+    height: 400px;
+  }
+
   footer {
     height: 55px;
     margin-top: -55px;
@@ -532,6 +581,26 @@ transition: all 0.35s ease-in-out;
   float: right;
   text-align: left;
   }
+  .about-container {
+    width: 90%;
+    align-items: center;
+  }
+  .about-container {
+    padding-top: 50px;
+  }
+  #circle-container {
+    width: 500px;
+    height: 500px;
+  }
+  #about-image {
+    width: 40%;
+    float: left;
+  }
+  #about-text {
+    padding-top: 120px;
+    width: 40%;
+    float: right;
+  }
 }
 
 /*lg*/
@@ -568,6 +637,13 @@ transition: all 0.35s ease-in-out;
   #locations-culture {
     width: 100%;
   }
+  #circle-container {
+    width: 600px;
+    height: 600px;
+  }
+  #about-text {
+    padding-top: 190px;
+  }
 }
 
 /*xl*/
@@ -580,5 +656,8 @@ transition: all 0.35s ease-in-out;
   #locations-text-p {
     float: center;
     width: 50%;
+  }
+  #about-text {
+    padding-right: 100px;
   }
 }
