@@ -309,7 +309,7 @@ video {
 #locations-text-p, #locations-text-l {
   width: 100%;
   margin: auto;
-  float: center;
+  /* float: center; */
   padding: 10px;
   text-align: justify;
 }
@@ -505,12 +505,31 @@ transition: all 0.35s ease-in-out;
   margin: auto;
   float: center;
   }
+  .gallery-item .gallery-text {
+    font-size: 1.8rem;
+  }
   #locations-text-p {
    float: left;
    width: 50%;
   }
+  #locations-text-p #locations-history {
+    width: 100%;
+  }
+  #locations-text-p #locations-culture {
+    width: 100%;
+  }
   #locations-text-l {
   width: 90%;
+  }
+  #locations-history {
+  padding: 0 10px;
+  width: 70%;
+  }
+  #locations-culture {
+  padding: 0 10px;
+  width: 30%;
+  float: right;
+  text-align: left;
   }
 }
 
@@ -541,7 +560,13 @@ transition: all 0.35s ease-in-out;
     width: 50%;
     float: left;
     margin: auto;
-    }
+  }
+  #locations-history {
+    width: 100%;
+  }
+  #locations-culture {
+    width: 100%;
+  }
 }
 
 /*xl*/
