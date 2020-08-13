@@ -226,7 +226,7 @@ video {
 }
 
 /*---------------------------------------------------------------------------------
- image galleries
+ West, East & North-image galleries
  (inspired by youtube tutorial by Follow Andrew:https://youtu.be/gvPyJ0rc944)
  --------------------------------------------------------------------------------*/
 .gallery-container {
@@ -292,33 +292,42 @@ video {
 }
 
 /*---------------------------------------------------------------------------------
- carousel
+ locations-carousel & text
  --------------------------------------------------------------------------------*/
- .kilmacduagh-container {
+ .locations-container {
    width: 90%;
    margin: auto;
 }
 
- .carousel-container {
+.carousel-container-p, .carousel-container-l {
   width: 100%;
   margin: auto;
-  float: left;
+  float: center;
+  padding: 10px;
 }
 
-#kilmacduagh-text {
-  float: left;
-  width: 50%;
-  padding-left: 50px;
+#locations-text-p, #locations-text-l {
+  width: 100%;
+  margin: auto;
+  float: center;
+  padding: 10px;
+  text-align: justify;
 }
 
-#kilmacduagh-text h2 {
+#locations-text-p h2, #locations-text-l h2 {
   color: #047417;
+  text-align: center;
 }
 
-#culture-kilmacduagh blockquote {
+#locations-culture blockquote {
   font-family: 'Marcellus', serif;
   font-size: 1.5rem;
   color: #047417;
+  float: left;
+}
+
+#locations-history {
+  float: left;
 }
 
 
@@ -368,12 +377,6 @@ transition: all 0.35s ease-in-out;
   background: #fafafa;
   color: #047417;
 }
-
-/* #footer-details {
-  padding: 5px;
-} */
-
-
 
 /*---------------------------------------------------------------------------------
  media queries
@@ -427,6 +430,12 @@ transition: all 0.35s ease-in-out;
   video {
     margin: 30px 0;
   }
+  .carousel-container-p {
+    width: 80%;
+    }
+    #locations-text-p {
+    width: 80%;
+    }
   footer {
     height: 55px;
     margin-top: -55px;
@@ -434,7 +443,9 @@ transition: all 0.35s ease-in-out;
   .copyright {
     font-size: 0.7rem;
   }
+  
 }
+
 
 /*md*/
 @media (min-width:992px) {
@@ -481,13 +492,27 @@ transition: all 0.35s ease-in-out;
   .h-8 {
     grid-row: span 8;
   }
-  .carousel-container {
-    width: 50%;
-    margin: auto;
+  .locations-container {
+    width: 95%;
+  }
+  .carousel-container-p {
+   width: 50%;
+   margin: auto;
+   float: left;
+  }
+  .carousel-container-l {
+  width: 90%;
+  margin: auto;
+  float: center;
+  }
+  #locations-text-p {
+   float: left;
+   width: 50%;
+  }
+  #locations-text-l {
+  width: 90%;
   }
 }
-
-
 
 /*lg*/
 @media (min-width:1200px) {
@@ -503,8 +528,31 @@ transition: all 0.35s ease-in-out;
   .home-gallery-text {
     font-size: 3rem;
   }
-  .carousel-container {
+  .carousel-container-p {
     width: 50%;
     margin: auto;
+  }
+  .carousel-container-l {
+    width: 50%;
+    float: left;
+    margin: auto;
+  }
+  #locations-text-l {
+    width: 50%;
+    float: left;
+    margin: auto;
+    }
+}
+
+/*xl*/
+@media (min-width:1500px) {
+  .carousel-container-p {
+    float: center;
+    width: 34%;
+    margin: auto;
+  }
+  #locations-text-p {
+    float: center;
+    width: 50%;
   }
 }
