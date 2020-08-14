@@ -637,12 +637,8 @@ transition: all 0.35s ease-in-out;
   #locations-culture {
     width: 100%;
   }
-  #circle-container {
-    width: 600px;
-    height: 600px;
-  }
   #about-text {
-    padding-top: 190px;
+    padding-top: 160px;
   }
 }
 
