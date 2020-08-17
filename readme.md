@@ -4,7 +4,7 @@
 
 ### [GitHub](https://github.com/Sean-Mc-Mahon/ms1virtualireland)
 
-![Various Devices](vi-wireframes.pdf)
+![Various Devices](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-responsive.JPG)
 
 Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software Development Course of [Code Institute](https://codeinstitute.net/).
 
