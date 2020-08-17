@@ -394,8 +394,8 @@ video {
 }
 
 #circle-container {
-  width: 270px;
-  height: 270px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   padding: 20px;
   margin-top: 20px;
@@ -403,7 +403,7 @@ video {
   margin: 0 auto;
 }
 
-#circle-cover-bg {
+#circle-image {
   background: url(https://i.imgur.com/k0AJMYz.jpg) no-repeat center;
   background-size: cover;
   height: 100%;
@@ -418,25 +418,34 @@ video {
 /*---------------------------------------------------------------------------------
  contact form (inspired by youtube tutorial by Dev Ed:https://www.youtube.com/watch?v=IxRJ8vplzAo)
  --------------------------------------------------------------------------------*/
+.form {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+}
+
 .contact-body {
   background-image: url(./MS1-Virtual_Ireland/assets/images/n-causeway-stones.jpg);
 }
 
 .contact-container {
-  height: 60vh;
+  height: 90vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 95%;
+  margin: auto;
+  position: relative;
 }
 
 .form p {
-  width: 300px;
+  width: 250px;
   text-align: justify;
 }
 
 .form-container {
-  width: 300px;
+  width: 250px;
   position: relative;
   height: 63px;
   overflow: hidden;
@@ -503,8 +512,6 @@ video {
   color: #fafafa;
   margin: 10px;
 }
-
-
 
 /*---------------------------------------------------------------------------------
  footer
@@ -588,7 +595,7 @@ footer {
   } */
   #vi-heading {
     display: inline-block;
-    height: 17px;
+    height: 16px;
   }
 
   footer {
