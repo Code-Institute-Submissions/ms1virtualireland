@@ -352,7 +352,6 @@ video {
 #locations-text-l {
   width: 100%;
   margin: auto;
-  /* float: center; */
   padding: 10px;
   text-align: justify;
 }
@@ -374,6 +373,10 @@ video {
   float: left;
 }
 
+.carousel-caption {
+  display: none;
+}
+
 /*---------------------------------------------------------------------------------
  about (Inspired by Love Running exercise from Code Institute CSS Basics Module)
  --------------------------------------------------------------------------------*/
@@ -387,20 +390,21 @@ video {
   width: 100%;
   margin: auto;
   float: left;
-  padding: 10px;
+  padding: 30px 10px;
 }
 
 #circle-container {
-  width: 300px;
-  height: 300px;
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
   padding: 20px;
+  margin-top: 20px;
   border: 1px solid #047417;
   margin: 0 auto;
 }
 
 #circle-cover-bg {
-  background: url(/MS1-Virtual_Ireland/assets/images/w-burren-square.jpg) no-repeat center;
+  background: url(https://i.imgur.com/k0AJMYz.jpg) no-repeat center;
   background-size: cover;
   height: 100%;
   border-radius: 50%;
@@ -561,9 +565,9 @@ footer {
   /* body {
     background-color: coral;
   } */
-  #vi-logo {
-    width: 40px;
-    height: 40px;
+  #vi-logo img {
+    width: 30px;
+    height: 30px;
   }
 
   #vi-heading {
@@ -577,14 +581,14 @@ footer {
 }
 
 /*xs default*/
-@media (min-width:333px) {
+@media (min-width:320px) {
 
   /* body {
     background-color: blue;
   } */
   #vi-heading {
     display: inline-block;
-    height: 18px;
+    height: 17px;
   }
 
   footer {
@@ -599,13 +603,14 @@ footer {
   /* body {
     background-color: red;
   } */
-  #vi-logo {
-    width: 80px;
-    height: 80px;
+  #vi-logo img {
+    width: 60px;
+    height: 60px;
+    color: #;
   }
 
   #vi-heading {
-    height: 37px;
+    height: 40px;
   }
 
   video {
@@ -614,6 +619,10 @@ footer {
 
   .carousel-container-p {
     width: 80%;
+  }
+
+  .carousel-caption {
+    display: inline-block;
   }
 
   #locations-text-p {
