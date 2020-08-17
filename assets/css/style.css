@@ -1,9 +1,11 @@
 /* colors
 Pakistan Green: #047417
+bg-light: #f8f9fa
+bg-dark: #343a40
 */
 
 /*---------------------------------------------------------------------------------
- general styles
+ global styles
  --------------------------------------------------------------------------------*/
 * {
   margin: 0;
@@ -13,8 +15,8 @@ Pakistan Green: #047417
 html,
 body {
   height: 100%;
-  font-family: 'Poppins', sans-serif;
-  color: slategrey;
+  font-family: "Poppins", sans-serif;
+  color: #343a40;
 }
 
 #container {
@@ -41,7 +43,7 @@ body {
   letter-spacing: 2px;
   line-height: 1rem;
   margin-top: 10px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .nav-link a {
@@ -78,12 +80,12 @@ body {
 }
 
 .sub-nav {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .active-nav-link a {
   font-size: 1.5rem;
-  color: rgba(0, 0, 0, .7) !important;
+  color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .sub-nav {
@@ -94,7 +96,7 @@ body {
  navigation svg
  --------------------------------------------------------------------------------*/
 #vi-logo {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
 }
 
 #vi-heading path:nth-child(2) {
@@ -106,19 +108,19 @@ body {
 #vi-heading path:nth-child(3) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
-  animation: line-anim 8s ease forwards .3s;
+  animation: line-anim 8s ease forwards 0.3s;
 }
 
 #vi-heading path:nth-child(4) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
-  animation: line-anim 8s ease forwards .6s;
+  animation: line-anim 8s ease forwards 0.6s;
 }
 
 #vi-heading path:nth-child(5) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
-  animation: line-anim 8s ease forwards .9s;
+  animation: line-anim 8s ease forwards 0.9s;
 }
 
 #vi-heading path:nth-child(6) {
@@ -148,19 +150,19 @@ body {
 #vi-heading path:nth-child(10) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
-  animation: line-anim 8s ease forwards .3s;
+  animation: line-anim 8s ease forwards 0.3s;
 }
 
 #vi-heading path:nth-child(11) {
   stroke-dasharray: 550px;
   stroke-dashoffset: 550px;
-  animation: line-anim 8s ease forwards .6s;
+  animation: line-anim 8s ease forwards 0.6s;
 }
 
 #vi-heading path:nth-child(12) {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
-  animation: line-anim 8s ease forwards .9s;
+  animation: line-anim 8s ease forwards 0.9s;
 }
 
 #vi-heading path:nth-child(13) {
@@ -226,7 +228,7 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fafafa;
-  font-size: 2rem;
+  font-size: 1.5rem;
   pointer-events: none;
   z-index: 3;
   transition: 2s ease-in-out;
@@ -239,6 +241,7 @@ video {
 /*---------------------------------------------------------------------------------
  West, East & North-image galleries
  (inspired by youtube tutorial by Follow Andrew:https://youtu.be/gvPyJ0rc944)
+ (overlays inspired by LoharTalk:https://youtu.be/Cfv_9l8F0Lo)
  --------------------------------------------------------------------------------*/
 .gallery-container {
   width: 100%;
@@ -277,9 +280,9 @@ video {
   position: absolute;
   height: 100%;
   width: 100%;
-  transition: all .8s ease;
+  transition: all 0.8s ease;
   opacity: 0;
-  background-color: rgba(0, 0, 0, .6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .gallery-item:hover .overlay {
@@ -363,7 +366,7 @@ video {
 }
 
 #locations-culture blockquote {
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-size: 1.3rem;
   color: #047417;
   float: left;
@@ -487,15 +490,15 @@ video {
   transition: all 0.5s ease;
 }
 
-.form-container input:focus+.label-name .label-content,
-.form input:not(:placeholder-shown)+.label-name .label-content {
+.form-container input:focus + .label-name .label-content,
+.form input:not(:placeholder-shown) + .label-name .label-content {
   transform: translateY(-150%);
   font-size: 14px;
   color: #047417;
 }
 
-.form-container input:focus+.label-name::after,
-.form-container input:not(:placeholder-shown)+.label-name::after {
+.form-container input:focus + .label-name::after,
+.form-container input:not(:placeholder-shown) + .label-name::after {
   transform: translateX(0%);
 }
 
@@ -567,8 +570,7 @@ footer {
  --------------------------------------------------------------------------------*/
 
 /*xxs*/
-@media (min-width:50px) {
-
+@media (min-width: 50px) {
   /* body {
     background-color: coral;
   } */
@@ -588,8 +590,7 @@ footer {
 }
 
 /*xs default*/
-@media (min-width:320px) {
-
+@media (min-width: 320px) {
   /* body {
     background-color: blue;
   } */
@@ -605,8 +606,7 @@ footer {
 }
 
 /*sm*/
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   /* body {
     background-color: red;
   } */
@@ -616,7 +616,7 @@ footer {
   }
 
   #vi-heading {
-    height: 40px;
+    height: 38px;
   }
 
   video {
@@ -649,16 +649,17 @@ footer {
     margin-top: -55px;
   }
 
+  .home-gallery-text {
+    font-size: 2rem;
+  }
+
   .copyright {
     font-size: 0.7rem;
   }
-
 }
 
-
 /*md*/
-@media (min-width:992px) {
-
+@media (min-width: 992px) {
   /* body {
     background-color: green;
   } */
@@ -789,8 +790,7 @@ footer {
 }
 
 /*lg*/
-@media (min-width:1200px) {
-
+@media (min-width: 1200px) {
   /* body {
     background-color: yellow;
   } */
@@ -837,7 +837,7 @@ footer {
 }
 
 /*xl*/
-@media (min-width:1500px) {
+@media (min-width: 1500px) {
   .carousel-container-p {
     width: 34%;
   }
