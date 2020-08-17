@@ -4,7 +4,7 @@
 
 ### [GitHub](https://github.com/Sean-Mc-Mahon/ms1virtualireland)
 
-![Various Devices](/wireframes/vi-wireframes.pdf)
+![Various Devices](vi-wireframes.pdf)
 
 Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software Development Course of [Code Institute](https://codeinstitute.net/).
 
@@ -121,7 +121,7 @@ I used Balsamiq to create the wireframes.
 5. **GitHub:** Used to host repos for the site https://github.
 6. **Chrome/Firefox/Bing DevTools:** Regularly used to test the the site https://developers.google.com/web/tools/chrome-devtools
 7. **W3C Markup Validation Service** Used to test code for errors; https://validator.w3.org/https://jigsaw.w3.org/css-validator/validator
-8. **Affinity Designer** Illustration software used to create logo; https://affinity.serif.com/en-gb/
+8. **Affinity Designer** Illustration software used to create logo and site icon; https://affinity.serif.com/en-gb/
 9. **Figma** Collaborative interface design tool used for some wireframing as well as creating logo; https://figma.com
 10. **Balsamiq** Used to create wireframes; https://balsamiq.com/?gclid=EAIaIQobChMIuoqlhfWi6wIV6YBQBh2f9w7DEAAYASAAEgLUTfD_BwE
 11. **Tinypng** Used to compress images; https://tinypng.com/
