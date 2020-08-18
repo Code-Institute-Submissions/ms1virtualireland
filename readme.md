@@ -168,6 +168,10 @@ I used Balsamiq and figma to create the wireframes.
 
 #### Mobile Devices (My phone and tablet)
 
+#### Friends and family
+
+I asked for feedback from friends and family in order to get a users perspective.
+
 ## Deployment
 
 I deployed the project using Github.
