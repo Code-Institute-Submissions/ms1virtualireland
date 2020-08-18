@@ -13,7 +13,12 @@ Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software D
 1. [**Project overview**](#project-overview)
 2. [**UX**](#ux)
 
-- [**UX PLanes**](#ux-planes)
+- [**Scope Plane**](#scope-plane)
+- [**Structure Plane**](#structure-plane)
+- [**Skeleton Plane**](#skeleton-plane)
+- [**Surface Plane**](#surface-plane)
+
+- [**UX Planes**](#ux-planes)
 - [**User Stories**](#user-stories)
 - [**Design**](#design)
   - [**Libraries**](#libraries)
@@ -24,7 +29,7 @@ Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software D
 3. [**Features**](#features)
 
    - [**Existing Features**](#existing-features)
-   - [**Features Left to Implement**](#features-left-to-implemement)
+   - [**Features Left to Implement**](#features-left-to-implement)
 
 4. [**Technologies Used**](#technologies-used)
 
@@ -89,6 +94,8 @@ A standard layout is fully responsive on mobile devices and larger screens.
 
 Colours are kept to a bare minimum, using only the colors for bootstrap bg-light, bg-dark and one green. My palette is located on [Coolors](https://coolors.co/u/sean_mcmahon)
 
+#### Typography
+
 4 [Google Fonts](https://fonts.google.com/) were used across the site:
 
 - [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) : body text
@@ -102,7 +109,7 @@ I used Balsamiq and figma to create the wireframes.
 
 - [Balsamiq Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-wireframes.pdf)
 
-- [Figma Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-figma-wireframe.pdf)
+- [Figma Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-figma-wireframe.png)
 
 ##### back to [top](#table-of-contents)
 
@@ -150,17 +157,27 @@ I used Balsamiq and figma to create the wireframes.
 
 ## Testing
 
+### Validators
+
 #### HTML
 
-- [W3C HTML Validator](https://validator.w3.org/) - Used to identify HTML errors
+- [W3C HTML Validator](https://validator.w3.org/)
+
+# Used to identify HTML errors
 
 #### CSS
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to identify CSS errors
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+# Used to identify CSS errors
+
+### Manual Testing
 
 #### amiresponsive
 
-- [Am I Responsive](http://ami.responsivedesign.is/) - Used to test responsiveness
+- [Am I Responsive](http://ami.responsivedesign.is/)
+
+# Used to test responsiveness
 
 #### Developer Tools (Various)
 
@@ -169,14 +186,6 @@ I used Balsamiq and figma to create the wireframes.
 #### Friends and family
 
 I asked for feedback from friends and family in order to get a users perspective.
-
-#### Code Institute Pre-Submission Checklist
-
-Using the checklist highlighted some small issues to adress such as inclusion of wireframes.
-
-#### Mentor Meetings
-
-Mentor meetings highlighted various issues to be addressed.
 
 ## Deployment
 
@@ -209,7 +218,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 ## Credits
 
-#### Content
+### Content
 
 1.  Google Fonts for font styles; https://fonts.google.com/
 
@@ -222,6 +231,10 @@ For more information about the above process; https://help.github.com/en/github/
 5.  Youtube; Contact form inspired by youtube tutorial by [Dev Ed](https://www.youtube.com/watch?v=IxRJ8vplzAo)
 
 6.  Youtube; SVG Animation inspired by youtube tutorial by [Dev Ed](https://youtu.be/IxRJ8vplzAo)
+
+### Media
+
+1.  [Google Earth Studio](https://www.google.com/earth/studio/) for images used to create videos on homepage.
 
 ### Acknowledgements
 

@@ -134,25 +134,28 @@
     ------------------------------------------------------------------------------------------------->
       <section class="contact-container">
 
-
         <div class="container form">
           <p>Hi, if you would like to receive updates on the site please fill out the form below:</p>
 
-          <div class="form-container">
-            <input id="name" placeholder=" " type="text" name="name" autocomplete="off" required />
-            <label for="name" class="label-name">
-              <span class="label-content">Name</span>
-            </label>
-          </div>
+          <form method="POST" action="https://formdump.codeinstitute.net/">
 
-          <div class="form-container">
-            <input id="email" placeholder=" " type="email" name="email" autocomplete="off" required />
-            <label for="email" class="label-name">
-              <span class="label-content">Email</span>
-            </label>
-          </div>
+            <div class="form-container">
+              <input id="name" placeholder=" " type="text" name="name" required />
+              <label for="name" class="label-name">
+                <span class="label-content">Name</span>
+              </label>
+            </div>
 
-          <button id="sign-up" type="button" class="btn btn-success">Sign Up!</button>
+            <div class="form-container">
+              <input id="email" placeholder=" " type="email" name="email" required />
+              <label for="email" class="label-name">
+                <span class="label-content">Email</span>
+              </label>
+            </div>
+
+            <button id="sign-up" type="submit" class="btn btn-success">Sign Up!</button>
+
+          </form>
 
         </div>
 
