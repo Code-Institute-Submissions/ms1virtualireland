@@ -69,7 +69,7 @@ Shape to remain consistent. Images are to be dominant with text following the fo
 
 #### Surface Plane
 
-Fonts of header, body and footer to contrast in size and style as appropriate.
+Fonts of header, body and footer to contrast in size and style as appropriate. Overlays used on images to ensure contrast while text appears on hover. Text hidden on images for small devices on carousels.
 
 ### User Stories
 
@@ -87,11 +87,7 @@ A standard layout is fully responsive on mobile devices and larger screens.
 
 #### Color Scheme
 
-Colours are kept to a bare minimum, using only the colors for bootstrap bg-light, bg-dark and one green.
-
-- ![#047417](https://placehold.it/15/61a5a0/047417)
-- ![#f8f9fa](https://placehold.it/15/90c0bc/f8f9fa)
-- ![#343a40](https://placehold.it/15/55928d/343a40)
+Colours are kept to a bare minimum, using only the colors for bootstrap bg-light, bg-dark and one green. My palette is located on [Coolors](https://coolors.co/u/sean_mcmahon)
 
 4 [Google Fonts](https://fonts.google.com/) were used across the site:
 
