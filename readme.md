@@ -13,6 +13,7 @@ Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software D
 1. [**Project overview**](#project-overview)
 2. [**UX**](#ux)
 
+- [**UX PLanes**](#ux-planes)
 - [**User Stories**](#user-stories)
 - [**Design**](#design)
   - [**Libraries**](#libraries)
@@ -50,6 +51,24 @@ VI is a virtual tour of Ireland aimed at people planning on visiting Ireland, pe
 
 VI is aimed at B2C users. Users expect to be able to experience a place and learn more about it without physically being there. The content is a mix of historical, mythological, anecdotal, cultural and geological information on Ireland’s most famous sites aided by imagery (my own photographs). The content is divided into pages based on regions; West, North and South with a direct link to each from the homepage and links to sections of pages for specific locations.
 
+#### Scope Plane
+
+Home page with own designed animated logo and video links to each 'tour'. Each tour to comprise three locations navigated by an image gallery and each location to incorporate a carousel and text describing history and mythology. About page and contact page to encourage user engagement. Fully responsive and consistent design.
+
+Future sprints to use 360 degree views and tours of the South of Ireland as well as seperate city tours.
+
+#### Structure Plane
+
+Each tour to be accessible from home page in non linear fashion from nav bar or from image gallery as it is impossible to know which tour user may be most interested in. Within each tour the in formation and images is presented in linear fashion for narrative clarity with sub nav giving option of jumping to individual sections for ease of use of user.
+
+#### Skeleton Plane
+
+Shape to remain consistent. Images are to be dominant with text following the following order; history & geology ('sans-serif' dark grey font), culture & mythology('marcellus' green font). Features kept to a minimum and simple navigation, no need for searching filters orpagination. Logo and heading to navigate to home page. Social links and copyright in footer.
+
+#### Surface Plane
+
+Fonts of header, body and footer to contrast in size and style as appropriate.
+
 ### User Stories
 
 - User Story A: Joe visited Ireland last year and wants to relive the experience and share with others what he saw.
@@ -81,9 +100,11 @@ Colours are kept to a bare minimum, using only the colors for bootstrap bg-light
 
 ### Wireframes
 
-I used Balsamiq to create the wireframes.
+I used Balsamiq and figma to create the wireframes.
 
-- [Wireframe](wireframes/vi-wireframes.pdf)
+- [Balsamiq Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-wireframes.pdf)
+
+- [Figma Wireframe](https://github.com/Sean-Mc-Mahon/ms1virtualireland/blob/master/wireframes/vi-figma-wireframe.pdf)
 
 ##### back to [top](#table-of-contents)
 
