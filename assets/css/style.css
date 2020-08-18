@@ -592,9 +592,6 @@ footer {
 /*xxs*/
 @media (min-width: 50px) {
 
-  /* body {
-      background-color: coral;
-    } */
   #main {
     padding-bottom: 200px;
   }
@@ -612,9 +609,6 @@ footer {
 /*xs default*/
 @media (min-width: 320px) {
 
-  /* body {
-    background-color: blue;
-  } */
   #vi-heading {
     display: inline-block;
     height: 16px;
@@ -637,9 +631,6 @@ footer {
 /*sm*/
 @media (min-width: 768px) {
 
-  /* body {
-    background-color: red;
-  } */
   #main {
     padding-top: 90px;
   }
@@ -699,9 +690,6 @@ footer {
 /*md*/
 @media (min-width: 992px) {
 
-  /* body {
-    background-color: green;
-  } */
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0px;
     padding-left: 0px;
@@ -835,9 +823,6 @@ footer {
 /*lg*/
 @media (min-width: 1200px) {
 
-  /* body {
-    background-color: yellow;
-  } */
   .container-video {
     width: 78%;
   }
