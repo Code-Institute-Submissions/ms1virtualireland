@@ -13,11 +13,11 @@ Virtual Ireland is a Milestone 1 project, it is part of the Fullstack Software D
 1. [**Project overview**](#project-overview)
 2. [**UX**](#ux)
 
-- [**Scope Plane**](#scope-plane)
+- [**UX Planes**](#ux-planes)
+  - [**Scope Plane**](#scope-plane)
   - [**Structure Plane**](#structure-plane)
   - [**Skeleton Plane**](#skeleton-plane)
   - [**Surface Plane**](#surface-plane)
-- [**UX Planes**](#ux-planes)
 - [**User Stories**](#user-stories)
 - [**Design**](#design)
   - [**Libraries**](#libraries)
