@@ -162,13 +162,13 @@ I used Balsamiq and figma to create the wireframes.
 
 - [W3C HTML Validator](https://validator.w3.org/)
 
-# Used to identify HTML errors
+Used to identify HTML errors
 
 #### CSS
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-# Used to identify CSS errors
+Used to identify CSS errors
 
 ### Manual Testing
 
