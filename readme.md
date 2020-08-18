@@ -166,9 +166,9 @@ I used Balsamiq and figma to create the wireframes.
 
 1. **amiresponsive** [Am I Responsive](http://ami.responsivedesign.is/) Used to test responsiveness across a range of devices.
 
-2. **Developer Tools** (Various)
+2. **Developer Tools** Chrome, Firefox and Microsoft Edge web dev tools using iPhone 5 and Ipad as toggle devices to test responsiveness.
 
-3. **Mobile Devices** (My phone and tablet)
+3. **Mobile Devices** I used my Google Pixel 3a phone and Amazon Fire tablet to test the site, using this method I found that not all of the fonts were loaded properly originally.
 
 4. **Friends and family** I asked for feedback from friends and family in order to get a users perspective.
 
