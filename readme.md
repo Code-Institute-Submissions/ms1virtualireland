@@ -158,33 +158,21 @@ I used Balsamiq and figma to create the wireframes.
 
 ### Validators
 
-#### HTML
+1. **HTML** [W3C HTML Validator](https://validator.w3.org/) Used to identify HTML errors
 
-- [W3C HTML Validator](https://validator.w3.org/)
-
-Used to identify HTML errors
-
-#### CSS
-
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-Used to identify CSS errors
+2. **CSS** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Used to identify CSS errors
 
 ### Manual Testing
 
-#### amiresponsive
+1. **amiresponsive** [Am I Responsive](http://ami.responsivedesign.is/) Used to test responsiveness across a range of devices.
 
-- [Am I Responsive](http://ami.responsivedesign.is/)
+2. **Developer Tools** (Various)
 
-Used to test responsiveness across a range of devices.
+3. **Mobile Devices** (My phone and tablet)
 
-#### Developer Tools (Various)
+4. **Friends and family** I asked for feedback from friends and family in order to get a users perspective.
 
-#### Mobile Devices (My phone and tablet)
-
-#### Friends and family
-
-I asked for feedback from friends and family in order to get a users perspective.
+5. **Contact Form** On the contact page the form may not be submitted without using correct syntax for the e-mail input or if either input is blank. Once inputs are filled properly the sign up button will lead to a form dump page.
 
 ## Deployment
 
