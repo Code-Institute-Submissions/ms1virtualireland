@@ -51,6 +51,8 @@ VI is a virtual tour of Ireland aimed at people planning on visiting Ireland, pe
 
 VI is aimed at B2C users. Users expect to be able to experience a place and learn more about it without physically being there. The content is a mix of historical, mythological, anecdotal, cultural and geological information on Ireland’s most famous sites aided by imagery (my own photographs). The content is divided into pages based on regions; West, North and South with a direct link to each from the homepage and links to sections of pages for specific locations.
 
+### UX Planes
+
 #### Scope Plane
 
 Home page with own designed animated logo and video links to each 'tour'. Each tour to comprise three locations navigated by an image gallery and each location to incorporate a carousel and text describing history and mythology. About page and contact page to encourage user engagement. Fully responsive and consistent design.
@@ -96,7 +98,7 @@ Colours are kept to a bare minimum, using only the colors for bootstrap bg-light
 - [Poppins](https://fonts.google.com/specimen/Poppins?query=poppins) : body text
 - [Marcellus](https://fonts.google.com/specimen/Marcellus?query=marcellus) : blockquote
 - [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand) : Logo (animated)
-- [Pacifico](https://fonts.google.com/specimen/Pacifico?query=pacifico) : Logo (solid)
+- [Pacifico](https://fonts.google.com/specimen/Pacifico?query=pacifico) : Logo (solid) and icon
 
 ### Wireframes
 
@@ -171,6 +173,14 @@ I used Balsamiq and figma to create the wireframes.
 #### Friends and family
 
 I asked for feedback from friends and family in order to get a users perspective.
+
+#### Code Institute Pre-Submission Checklist
+
+Using the checklist highlighted some small issues to adress such as inclusion of wireframes.
+
+#### Mentor Meetings
+
+Mentor meetings highlighted various issues to be addressed.
 
 ## Deployment
 
