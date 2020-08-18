@@ -225,7 +225,7 @@ For more information about the above process; https://help.github.com/en/github/
 
 ### Acknowledgements
 
-1.  My mentor Adegbenge Adaye for his support and input.
+1.  My mentor Adegbenga Adeye for his support and input.
 
 2.  My peers on slack for their generosity in sharing their knowledge and experience.
 
