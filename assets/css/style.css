@@ -26,6 +26,7 @@ body {
 #main {
   overflow: auto;
   padding-bottom: 95px;
+  padding-top: 50px;
 }
 
 /*---------------------------------------------------------------------------------
@@ -188,6 +189,7 @@ body {
     stroke-dashoffset: 0;
   }
 }
+
 
 /*---------------------------------------------------------------------------------
  homepage video
@@ -576,6 +578,10 @@ footer {
   /* body {
     background-color: coral;
   } */
+  #main {
+    padding-bottom: 200px;
+  }
+
   #vi-logo img {
     width: 30px;
     height: 30px;
@@ -606,6 +612,10 @@ footer {
     height: 90px;
     margin-top: -90px;
   }
+
+  #main {
+    padding-bottom: 90px;
+  }
 }
 
 /*sm*/
@@ -614,6 +624,10 @@ footer {
   /* body {
     background-color: red;
   } */
+  #main {
+    padding-top: 90px;
+  }
+
   #vi-logo img {
     width: 60px;
     height: 60px;
