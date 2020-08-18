@@ -180,7 +180,30 @@ Mentor meetings highlighted various issues to be addressed.
 
 ## Deployment
 
-I deployed the project using Github.
+1. I Created a Github account at https://github.com
+   My account url; https://github.com/Sean-Mc-Mahon
+
+2. I installed Git and set up a username and password.
+
+3. I created a repository on Github (https://github.com/Sean-Mc-Mahon/ms1virtualireland)
+
+4. On VS Code I opened the command pallette and selected Git Clone, I pasted in the URL for the repo on GitHub and selected a folder on my computer to sync to.
+
+5. I uploaded all files to my Github repository.
+
+6. To publish the project to see it on the web, I then went into the Settings on my respository, scrolled down to the heading, GitHub Pages. Under the Source setting, I used the drop-down menu to select master branch as a publishing source and saved it. Refreshed the github page, and you are then given a url where your page is published;
+   Your site is published at https://sean-mc-mahon.github.io/ms1virtualireland/index.html
+
+7. To run this code on a local machine, you would go to my respository at
+   https://github.com/Sean-Mc-Mahon/ms1virtualireland and on the home page on the right hand side just above all the files, you will see a green button that says,
+   "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file.
+   To continue with cloning, you would;
+
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste this URL; https://github.com/BobHerold/RobertHeroldportfolio.git Press Enter. Your local clone will be created.
+
+For more information about the above process; https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ---
 
