@@ -176,7 +176,7 @@ Used to identify CSS errors
 
 - [Am I Responsive](http://ami.responsivedesign.is/)
 
-# Used to test responsiveness
+Used to test responsiveness across a range of devices.
 
 #### Developer Tools (Various)
 
